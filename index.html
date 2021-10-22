@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" >
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <form id ="form" class="caja">
+        <h1>Calculadora</h1>
+    
+        <div>
+            <label for="num1">Ingrese numero uno</label>
+            <input id="num1" type="number" placeholder="Ingrese un numero">
+        </div>    
+        <div>
+        <label for="num2"> Ingrese numero dos</label>
+        <input id="num2" type="number" placeholder="Ingrese otro numero">
+        </div>
+        <div id="feo">
+        <label>El resultado es</label><br>
+        <input id="resultado" readonly>
+        </div><br>
+        <div>
+            <button type="reset" id="btnReset">Borrar</button>
+            <button id="btnSuma">Suma</button>
+            <button id="btnResta">Resta</button>
+            <button id="btnMulti">Multiplicación</button>
+            <button id="btnDiv">División</button>
+        </div>
+       <div id="listar"></div>
+    </form>
+    
+    <script src="./script/script.js"></script>
+</body>
+</html>
